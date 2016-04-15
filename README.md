@@ -1,7 +1,8 @@
 <h1>
 <a name="360fxexporter" class="anchor" href="#thunderlixianexporter"><span class="mini-icon mini-icon-link"></span></a>360FXExporter</h1>
 
-<p>œ
+<p>œ尝试修改，2016-4-15
+<p>ce
 可将360分享下载地址复制导出或使用aria2等下载命，方便Linux/Mac用户使用</p>
 
 <ul>
