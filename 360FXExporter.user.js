@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name       360FXExporter
 // @namespace  http://yunpan.360.cn/
-// @version    1.0
+// @version    1.0.1
 // @description  export 360 share url to aria2/wget
-// @match      http://*.yunpan.cn/*
+// @match      http://*.yunpan.360.cn/*
 // @run-at document-end
 // @copyright  2013+, chztv <0571chz@gmail.com>
 // ==/UserScript==
