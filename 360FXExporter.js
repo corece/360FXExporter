@@ -152,7 +152,7 @@ var TLE = TLE || {};
           var Days = 30; //此 cookie 将被保存 30 天
   	  var exp  = new Date();    //new Date("December 31, 9998");
   	  exp.setTime(exp.getTime() + Days*24*60*60*1000);
-	  document.cookie = key + "="+ escape(value) +";expires="+ exp.toGMTString()+";path=/;domain=.yunpan.cn";
+	  document.cookie = key + "="+ escape(value) +";expires="+ exp.toGMTString()+";path=/;domain=.yunpan.360.cn";
       } else {
         setGdCookie(key, value, 86400*365);
       }*/
@@ -295,7 +295,7 @@ if (SYS_CONF.isSingle) {
 			success:function(data){
                 		//alert('this ok');
                 		//alert($(".qrcode-img .desc").html());
-                		//$(".qrcode-body").html('<img id="qrcode-img" src="http://c3.yunpan.360.cn/share/getDLinkQRcode?fullurl=http%3A%2F%2Fajnlsff3wa.l3.yunpan.cn%2Flk%2FQXig3WVxUZjW9"><p>链接可复制，可Aria2</p><a id="aria2url1" href="'+data.data.downloadurl+'" target="_blank" title="可复制下载地址">直接下载</a> | <a id="aria2down1" onclick="aria2down1();">Aria2</a> | <a id="setting" onclick="settingshow();">设置</a>');
+                		//$(".qrcode-body").html('<img id="qrcode-img" src="http://c3.yunpan.360.cn/share/getDLinkQRcode?fullurl=http%3A%2F%2Fajnlsff3wa.l3.yunpan.360.cn%2Flk%2FQXig3WVxUZjW9"><p>链接可复制，可Aria2</p><a id="aria2url1" href="'+data.data.downloadurl+'" target="_blank" title="可复制下载地址">直接下载</a> | <a id="aria2down1" onclick="aria2down1();">Aria2</a> | <a id="setting" onclick="settingshow();">设置</a>');
                 		$(".qrcode-img .desc").html('<a id="aria2url1" href="'+data.data.downloadurl+'" target="_blank" title="可复制下载地址">直接下载</a> | <a id="aria2down1" onclick="aria2down1();">Aria2</a> | <a id="setting" onclick="settingshow();">设置</a>');
 			 },
 			error:function(){
@@ -312,7 +312,7 @@ if (SYS_CONF.isSingle) {
 		success:function(data){
 			//alert('this ok');
 			//alert($(".qrcode-img .desc").html());
-			//$(".qrcode-body").html('<img id="qrcode-img" src="http://c3.yunpan.360.cn/share/getDLinkQRcode?fullurl=http%3A%2F%2Fajnlsff3wa.l3.yunpan.cn%2Flk%2FQXig3WVxUZjW9"><p>链接可复制，可Aria2</p><a id="aria2url1" href="'+data.data.downloadurl+'" target="_blank" title="可复制下载地址">直接下载</a> | <a id="aria2down1" onclick="aria2down1();">Aria2</a> | <a id="setting" onclick="settingshow();">设置</a>');
+			//$(".qrcode-body").html('<img id="qrcode-img" src="http://c3.yunpan.360.cn/share/getDLinkQRcode?fullurl=http%3A%2F%2Fajnlsff3wa.l3.yunpan.360.cn%2Flk%2FQXig3WVxUZjW9"><p>链接可复制，可Aria2</p><a id="aria2url1" href="'+data.data.downloadurl+'" target="_blank" title="可复制下载地址">直接下载</a> | <a id="aria2down1" onclick="aria2down1();">Aria2</a> | <a id="setting" onclick="settingshow();">设置</a>');
 			alert(data.length);
 		 },
 		error:function(){
