@@ -40,7 +40,7 @@
 <p>安装Userscript</p>
 
 <blockquote>
-<p>使用支持userscript的浏览器访问： <a href="https://raw.github.com/chztv/360FXExporter/master/360FXExporter.user.js">360FXExporter.user.js</a></p>
+<p>使用支持userscript的浏览器访问： <a href="https://raw.github.com/corece/360FXExporter/master/360FXExporter.user.js">360FXExporter.user.js</a></p>
 
 <p>打开360的分享链接页面，开始使用吧！<br></p>
 </blockquote>
